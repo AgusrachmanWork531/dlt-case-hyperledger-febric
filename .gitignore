@@ -1,0 +1,30 @@
+# Abaikan fabric-samples karena hanya digunakan untuk test network
+fabric-samples/
+
+# Docker artifacts
+*.tar.gz
+*.block
+*.tx
+*.pem
+*.key
+
+# Wallet identity (jika pakai fabric-sdk)
+wallet/
+keystore/
+credentials/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Temp & backup
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
